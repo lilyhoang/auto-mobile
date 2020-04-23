@@ -29,7 +29,6 @@ public class CommonPage extends PageObject {
 
     private static String ANDROID_HOME;
 
-
     public String getCurrentActivity() {
         WebDriver facade = getDriver();
         WebDriver driver = ((WebDriverFacade) facade).getProxiedDriver();

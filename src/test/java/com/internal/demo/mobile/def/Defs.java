@@ -8,15 +8,8 @@ public class Defs {
     @Steps
     VehicleShoppingStep vehicleShoppingStep;
 
-    @Given("^I want to$")
+    @Given("^I want to learn language$")
     public void Test() {
         vehicleShoppingStep.testDrive();
     }
-
-//    public static void main(String[] args) {
-////        Injector injector = Guice.createInjector(new VehicleShoppingModule());
-////        injector.injectMembers(injector.getInstance(VehicleShoppingStep.class));
-////         vehicleShoppingStep = injector.getInstance(VehicleShoppingStep.class);
-//
-//    }
 }

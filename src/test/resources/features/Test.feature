@@ -2,4 +2,4 @@
 Feature: Learning Doulingo
 
   Scenario: Learning Doulingo
-    Given I want to
+    Given I want to learn language
